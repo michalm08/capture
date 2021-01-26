@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 //Styled Components
 export const About = styled.div`
-  min-height: 90px;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
