@@ -1,5 +1,6 @@
 import React from 'react'
 import GlobalStyle from './components/GlobalStyle';
+import Nav from './components/Nav';
 //Global Style
 
 //Import pages
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle/>
+      <Nav/>
       <AboutUs/>
     </div>
   );
