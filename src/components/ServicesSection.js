@@ -72,12 +72,13 @@ const Cards = styled.div`
 
 const Card = styled.div`
   flex-basis: 20rem;
-  icon {
+  .icon {
     display: flex;
     align-items: center;
-    h3{
-      margin-left: 1 rem;
-      background: black;
+    h3 {
+      margin-left: 1rem;
+      background: white;
+      color: black;
       padding: 1rem;
     }
   }
